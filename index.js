@@ -1,8 +1,15 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
+const fs = require("fs");
 
 // TODO: Create an array of questions for user input
-const questions = [
+/**
+ * 
+ * @param {*} readMeUserData 
+ * @returns 
+ */
+const promptUser = readMeUserData => {
+    return inquirer.prompt([
     {
         type: "input",
         name: "title",
@@ -60,19 +67,42 @@ const questions = [
         name: "license",
         message: "Add a license. If you need help choosing a license, check out https://choosealicense.com"
     },
-];
+])
+};
 
+/**
+ * 
+ * @param {*} readMeContent 
+ * @returns 
+ */
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+const generateReadME = fileContent => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
+            //if there's an error, reject the Promis and send the error to the PRomise's `.catch()`
+            if(err) {
+                reject(err);
+                //return out fo the function here to make sure the Promis doesn't accidentally execute resolve()
+                return;
+            }
+            // if everything went correctly, resolve the Promise and sen the successful data to the `.then()`
+            resolve({
+                ok:true,
+                message: 'File created!'
+            });
+        });
+    });
+};
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+    // start promptUser to get information about the README from user
+    promptUser()
+    //then get the readMeUserData and send it to generateReadME() function
+    .then(readMeUserData => {
+        return generateReadME(readMeUserData);
+    });
+};
 
 // Function call to initialize app
 init();
-
-// used this in app.js HOW CAN I CHANGE IT TO FIT INTO INDEX
-// promptUser()
-//     .then(readmeData => {
-//         console.log(readmeData);
-//     });
