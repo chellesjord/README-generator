@@ -1,4 +1,3 @@
-// const fs = require("fs");
 const inquirer = require("inquirer");
 
 const promptUser = readmeData => {
@@ -7,10 +6,7 @@ const promptUser = readmeData => {
     New ReadMe File
     ===============`);
 
-    // //if there's not "projects" array property, create one
-    // if (!readmeData.projects) {
-    //     readmeData.projects = [];
-    // }
+//prompt user for README input
     return inquirer.prompt([
         {
             type: "input",
@@ -72,6 +68,7 @@ const promptUser = readmeData => {
     ])
 };
 
+//start Prompt for README File
 promptUser()
     .then(readmeData => {
         console.log(readmeData);
