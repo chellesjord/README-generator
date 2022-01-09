@@ -1,14 +1,27 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { }
+// function renderLicenseBadge(license) {
+//   if (license === "MIT") {
+//     return //MIT link
+//   } else if (license === "boost") {
+//     return //boost link
+//   } else (license === "unlicense" {
+//     return //UNLISENSE link
+//   }
+// };
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {
+  let badge
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) {
+  //grab license badge
+  // grab license linked to badge
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -16,27 +29,29 @@ function generateMarkdown(data) {
   //create template for markdown readme file
   return `# ${data.title}
 
-    ## Description:
-    ${data.description}
+  ## Description:
+  ${data.description}
 
-    ## Progamming Languages used
-    ${data.techlanguages}
+  ##Table of Contents:
+  Installation
+  Usage
+  Credits
+  Liscense
 
-    ## Challenges:
-    ${data.challenges}
 
-    ## Future Features:
-    ${data.futurefeatures}
+  ## Installation
+  ${data.techlanguages}
+  ${data.installation}
 
-    ## Screenshot of working app
-    <img alt="application in action" src ="${data.link}">
+  ## Usage
+  <img alt="application in action" src ="${data.link}">
 
-    ## Collaborators & Team Members:
-    ${data.credits}
+  ## Credits:
+  ${data.credits}
 
-    ## License: 
-    ${data.license}
-    `;
+  ## License: 
+  ${data.license}
+  `;
 };
 
 module.exports = generateMarkdown;
