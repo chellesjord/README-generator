@@ -1,9 +1,9 @@
 
   # README Generator
-  ![badge](https://img.shields.io/badge/License-Unlicensed-lightgrey) 
+  ![badge](https://img.shields.io/badge/License-Mozilla%20Public%202.0-blue) 
 
   ## Description:
-  This project creates a README.md file by prompting the user with questions within the terminal.
+  THis project creates a README.md file by prompting the user with questions within the terminal.
 
   ## Table of Contents:
 
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  To get the application working, download the files from Github. Open the terminal, install Node and Inquirer. Once installed type “Node Index” to run the README Generator. When the prompts have been completed, locate the created “README.md” file within the “dist” folder.
+  To get the application working download the files from Github. Open the terminal, install Node and Inquirer. Once installed type "node index.js" to run the README Generator. When the prompts have been completed, locate the created "README.md" file withing the "dist" folder.
 
   Languages used: JavaScript,ES6,Node 
 
   ## Usage
-  ![application in action](https://watch.screencastify.com/v/7lUmT1o0X8RMGR2BnSS1)
+  ![application in action](https://myoctocat.com/assets/images/base-octocat.svg)
 
   ## Credits:
-  
+  myself
 
   
 ## License: 
-[Click here](https://choosealicense.com/licenses/unlicense/) for license information
+[Click here](https://choosealicense.com/licenses/mpl-2.0/) for license information
 
   ## Questions:
   Check out my [GitHub page](https://github.com/chellesjord)!

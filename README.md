@@ -18,9 +18,9 @@
   Languages used: JavaScript,ES6,Node 
 
   ## Usage
-  [![application in action](./assets/READMEwalkthrough.gif)](https://watch.screencastify.com/v/7lUmT1o0X8RMGR2BnSS1)
+  [![application in action](./assets/READMEwalkthrough.gif)](https://watch.screencastify.com/v/tWebyzPKkU6Oq2Dt1dXd)
   
-  Watch on [Screencastify.com](https://watch.screencastify.com/v/7lUmT1o0X8RMGR2BnSS1) 
+  Watch on [Screencastify.com](hhttps://watch.screencastify.com/v/tWebyzPKkU6Oq2Dt1dXd) 
 
   ## Credits:
   
