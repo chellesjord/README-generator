@@ -1,7 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  console.log(license)
   if (license === "GNU AGPLv3") {
     return "https://img.shields.io/badge/License-GNU%20AGPLv3-blue"
   } else if (license === "GNU GPLv3") {
@@ -56,10 +55,7 @@ function renderLicenseSection(license) {
   } else {
     return `
 ## License: 
-
-![badge](${renderLicenseBadge(license)}) 
-
-[Click here for license information](${renderLicenseLink(license)})`
+[Click here](${renderLicenseLink(license)}) for license information`
   }
 };
 
@@ -69,22 +65,23 @@ function generateMarkdown(data) {
   //create template for markdown readme file
   return `
   # ${data.title}
+  ![badge](${renderLicenseBadge(data.license)}) 
 
   ## Description:
   ${data.description}
 
   ## Table of Contents:
 
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Credits](#Credits)
-  * [Liscense](#Liscense)
-
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Questions](#questions)
 
   ## Installation
-  ${data.techlanguages} 
-
   ${data.installation}
+
+  Languages used: ${data.techlanguages} 
 
   ## Usage
   ![application in action](${data.link})
@@ -93,6 +90,12 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ${renderLicenseSection(data.license)}
+
+  ## Questions:
+  Check out my [GitHub page](https://github.com/${data.username})!
+
+  If you have additonal questions email me at 
+  <a href="mailto:${data.email}">${data.email}</a>.
   `;
 };
 
