@@ -13,6 +13,32 @@ const promptUser = readMeUserData => {
     return inquirer.prompt([
         {
             type: "input",
+            name: "username",
+            message: "Please enter your GitHub username:",
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log("Please enter a response");
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your email address:",
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log("Please enter a response");
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input",
             name: "title",
             message: "Project Title:",
             validate: titleInput => {
@@ -52,7 +78,7 @@ const promptUser = readMeUserData => {
         {
             type: "input",
             name: "link",
-            message: "Enter a screenshot link of the working appplication:"
+            message: "Enter a screenshot link of the working application:"
         },
         {
             type: "input",
@@ -83,10 +109,10 @@ const generateReadME = fileContent => {
                 //return out fo the function here to make sure the Promis doesn't accidentally execute resolve()
                 return;
             }
-            // if everything went correctly, resolve the Promise and sen the successful data to the `.then()`
+            // if everything went correctly, resolve the Promise and send the successful data to the `.then()`
             resolve({
                 ok: true,
-                message: 'File created!'
+                message: "File created!"
             });
         });
     });

@@ -1,5 +1,6 @@
 
-  # project
+  # test
+  ![badge](https://img.shields.io/badge/License-GNU%20AGPLv3-blue) 
 
   ## Description:
   test
@@ -9,25 +10,27 @@
   * [Installation](#Installation)
   * [Usage](#Usage)
   * [Credits](#Credits)
-  * [Liscense](#Liscense)
-
+  * [License](#License)
+  * [Questions](#Questions)
 
   ## Installation
-  JavaScript,CSS,ES6 
+  test
 
-  This is the best thing ever
+  Languages used: JavaScript 
 
   ## Usage
-  ![application in action](https://myoctocat.com/assets/images/base-octocat.svg)
+  ![application in action](test)
 
   ## Credits:
-  chellesjord
+  test
 
   
 ## License: 
+[Click here](https://choosealicense.com/licenses/agpl-3.0/#) for license information
 
-![badge](https://img.shields.io/badge/License-Mozilla%20Public%202.0-blue) 
+  ## Questions:
+  Check out my [GitHub page](https://github.com/chellesjord)!
 
-[click here for license](https://choosealicense.com/licenses/mpl-2.0/)
-
+  If you have additonal questions email me at 
+  <a href="mailto:m.kayejordan@gmail.com">m.kayejordan@gmail.com</a>.
   
