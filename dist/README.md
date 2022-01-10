@@ -1,31 +1,33 @@
-# test
 
-## Description:
-test
+  # project
 
-## Table of Contents:
+  ## Description:
+  test
 
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Credits](#Credits)
-* [Liscense](#Liscense)
+  ## Table of Contents:
 
-
-## Installation
-JavaScript 
-
-test
-
-## Usage
-![application in action](https://myoctocat.com/assets/images/base-octocat.svg)
-
-## Credits:
-test
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Credits](#Credits)
+  * [Liscense](#Liscense)
 
 
+  ## Installation
+  JavaScript,CSS,ES6 
+
+  This is the best thing ever
+
+  ## Usage
+  ![application in action](https://myoctocat.com/assets/images/base-octocat.svg)
+
+  ## Credits:
+  chellesjord
+
+  
 ## License: 
 
-![badge](NA) 
+![badge](https://img.shields.io/badge/License-Mozilla%20Public%202.0-blue) 
 
-[click here for license](undefined)
+[click here for license](https://choosealicense.com/licenses/mpl-2.0/)
 
+  
