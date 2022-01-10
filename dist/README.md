@@ -1,23 +1,33 @@
-# Poop
 
-    ## Description:
-    check for poop
+  # project
 
-    ## Progamming Languages used
-    JavaScript,HTML,CSS
+  ## Description:
+  test
 
-    ## Challenges:
-    ahhh
+  ## Table of Contents:
 
-    ## Future Features:
-    ahhh
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Credits](#Credits)
+  * [Liscense](#Liscense)
 
-    ## Screenshot of working app
-    <img alt="application in action" src ="ahhh.com">
 
-    ## Collaborators & Team Members:
-    thais, ethan
+  ## Installation
+  JavaScript,CSS,ES6 
 
-    ## License: 
-    ahhh
-    
+  This is the best thing ever
+
+  ## Usage
+  ![application in action](https://myoctocat.com/assets/images/base-octocat.svg)
+
+  ## Credits:
+  chellesjord
+
+  
+## License: 
+
+![badge](https://img.shields.io/badge/License-Mozilla%20Public%202.0-blue) 
+
+[click here for license](https://choosealicense.com/licenses/mpl-2.0/)
+
+  
