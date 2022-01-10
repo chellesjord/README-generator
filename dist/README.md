@@ -29,8 +29,8 @@
 [Click here](https://choosealicense.com/licenses/agpl-3.0/#) for license information
 
   ## Questions:
-  Check out my [GitHub page](https://github.com/chellesjord)!
+  Check out my [GitHub page](https://github.com/test)!
 
   If you have additonal questions email me at 
-  <a href="mailto:m.kayejordan@gmail.com">m.kayejordan@gmail.com</a>.
+  <a href="mailto:test">test</a>.
   
