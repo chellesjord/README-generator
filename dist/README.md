@@ -1,30 +1,31 @@
 # test
 
-  ## Description:
-  test
+## Description:
+test
 
-  ##Table of Contents:
-  Installation
-  Usage
-  Liscense
-  Contributing
-  Test
-  Question
+## Table of Contents:
+
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Credits](#Credits)
+* [Liscense](#Liscense)
 
 
-  ## Installation
-  
-  test
+## Installation
+JavaScript 
 
-  ## Future Features:
-  test
+test
 
-  ## Usage
-  <img alt="application in action" src ="test">
+## Usage
+![application in action](https://myoctocat.com/assets/images/base-octocat.svg)
 
-  ## Contributing:
-  test
+## Credits:
+test
 
-  ## License: 
-  test
-  
+
+## License: 
+
+![badge](NA) 
+
+[click here for license](undefined)
+

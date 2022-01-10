@@ -60,9 +60,10 @@ const promptUser = readMeUserData => {
             message: "If you worked on this project with a team, list your collaborators/team members:"
         },
         {
-            type: "input",
+            type: "list",
             name: "license",
-            message: "Add a license. If you need help choosing a license, check out https://choosealicense.com"
+            message: "Add a license.",
+            choices: ["GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "MIT License", "Boost Software License 1.0", "The Unlicense", "No license"]
         },
     ])
 };
