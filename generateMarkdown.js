@@ -72,11 +72,11 @@ function generateMarkdown(data) {
 
   ## Table of Contents:
 
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Credits](#Credits)
-  * [License](#License)
-  * [Questions](#Questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Questions](#questions)
 
   ## Installation
   ${data.installation}
